@@ -1,0 +1,83 @@
+{
+  "name": "@g-loot/react-tournament-brackets",
+  "version": "1.0.30",
+  "description": "A react component to visualize bracket leaderboards",
+  "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack --config scripts/webpack.config.js",
+    "dev": "start-storybook -p 4442",
+    "start": "start-storybook -p $PORT -h 0.0.0.0",
+    "build-storybook": "build-storybook -o devapp-build",
+    "test": "jest --verbose false",
+    "lint": "eslint \"src/**/*.js\" \"src/**/*.jsx\"",
+    "format": "eslint --fix \"src/**/*.js\" \"src/**/*.jsx\""
+  },
+  "author": "Omar ElGaml",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-svg-pan-zoom": "^3.10.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-typescript": "^7.14.5",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/addon-storysource": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@testing-library/react": "^13.3.0",
+    "@types/jest": "^29.0.2",
+    "@types/styled-components": "^5.1.10",
+    "@typescript-eslint/parser": "^5.59.9",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.6.0",
+    "deepmerge": "^4.2.2",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.11",
+    "eslint-plugin-testing-library": "^5.10.2",
+    "eslint-plugin-typescript": "^0.14.0",
+    "file-loader": "^6.0.0",
+    "jest": "^26.6.3",
+    "minireset.css": "^0.0.3",
+    "prettier": "^2.2.1",
+    "react": "^18.1.0",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^18.1.0",
+    "react-svg-pan-zoom": "^3.10.0",
+    "style-loader": "^1.2.1",
+    "styled-components": "^4.1.3",
+    "ts-loader": "^8.2.0",
+    "typescript": "^4.3.4",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-loot/react-tournament-brackets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/g-loot/react-tournament-brackets/issues"
+  },
+  "homepage": "https://github.com/g-loot/react-tournament-brackets#readme"
+}
