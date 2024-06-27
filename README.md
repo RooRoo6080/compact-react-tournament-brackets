@@ -16,3 +16,5 @@ Either copy all files into the React ```src``` directory and import with ```impo
 OR
 
 Copy all files into ```node_modules``` under ```@rooroo/react-tournament-brackets``` and treat it as a regular npm import.
+
+![image](https://github.com/RooRoo6080/react-tournament-brackets/assets/67977174/3af0e3a6-58b4-46e0-b081-daad03280bf8)
